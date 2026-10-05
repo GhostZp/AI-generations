@@ -1,0 +1,17 @@
+GET http://localhost:3000/api/v1
+
+###
+POST http://localhost:3000/api/v1/comments
+Content-Type: application/json
+
+{
+  "text": "This video sucked!"
+}
+
+###
+POST http://localhost:3000/api/v1/images
+Content-Type: application/json
+
+{
+  "prompt": "A thumbnail for youtube video about halloween shopping and shoppping haul."
+}
